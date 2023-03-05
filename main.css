@@ -1,0 +1,138 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ background: floralwhite;
+}
+.head-header{
+ background: black;
+ overflow: hidden;
+ padding: 10px;
+}
+img{
+ position: static;
+}
+.head-header ul{
+ float: right;
+ list-style: none;
+ top: 40px;
+ position: relative;
+}
+.head-header ul li{
+ float: left;
+}
+.head-header ul li a{
+ color: white;
+ padding: 10px;
+ font-size: 20px;
+ text-decoration: none;
+ text-transform: uppercase;
+ cursor: pointer;
+}
+ .head-header a:hover{
+ background: black;
+ border-bottom: 3px solid red;
+ color: white;
+}
+.form-container{
+ display: flex;
+ justify-content: center;
+}
+form{
+ background: white;
+ width: 500px;
+ height: 220px;
+ border-radius: 5px;
+ overflow: hidden;
+ box-shadow: 10px 10px 10px gray;
+ margin-bottom:20px;
+}
+.main-container .one{
+ text-align:center;
+ font-size: 16px;
+}
+p{
+ text-align: left;
+ padding: 10px;
+}
+h1{
+ text-transform: uppercase;
+}
+.form-container input{
+ display: block;
+ margin: 10px;
+ padding: 10px;
+ width: 80%;
+ border-radius: 5px;
+ position: relative;
+ top: 20px;
+ left: 40px;
+}
+.post{
+ background: black;
+ color: white;
+ padding: 10px; 
+ border: 3px solid red;
+ margin:10px;
+}
+.bottom {
+ border-top:5px solid black;
+ display: flex;
+ justify-content: center;
+ margin: 10px;
+}
+.row{
+ float: left;
+ padding: 10px;
+ margin:10px;
+}
+.row ul{
+ list-style: none;
+}
+.row ul li a{
+ text-decoration: none;
+ color: black;
+}
+.row .up{
+ font-size: 16px;
+ font-weight: bold;
+ padding: 10px;
+ text-transform: uppercase;
+}
+@media screen and (max-width:500px){
+ body{
+  background: gainsboro;
+ }
+ .head-header nav{
+  background: greenyellow;
+  height: 70vh;
+  width: 100vw;
+  }
+ img{
+  width: 150px;
+  height:150px;
+  display: block;
+  margin-left: 90px;
+ }
+ .head-header ul li{
+ position: relative;
+  float: none;
+  display: block;
+  top:-70px;
+  left: -100px;
+  margin:5px;
+  padding:0px;
+ }
+ .head-header a:hover{
+ background:none;
+ border-bottom: none;
+ color: white;
+}
+.bottom{
+ margin-left:90px;
+ border: none;
+}
+}
+
